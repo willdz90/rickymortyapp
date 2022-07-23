@@ -1,7 +1,6 @@
 .imgCharacter{
     border-radius: 50%;
     width: 15vw;
-
 }
 
 .nameCharacter{
@@ -24,14 +23,6 @@
     align-items: center;
     justify-content: center;
 }
-
-/* .spinner,.spinner:after{
-    display: block;
-    border-radius: 50%;
-    width: 18vw;
-    z-index: 100;
-    margin-left: -18.5vw;
- } */
 
 .spinner{
     display: block;

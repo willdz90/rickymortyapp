@@ -4,7 +4,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getCharacters } from '../../redux/actions/index.js';
 import ReactPaginate from 'react-paginate';
 import CharactersPage from '../CharactersPage/CharactersPage.jsx';
-import Loader from '../Loader/Loader';
 import NotFound from '../NotFound/NotFound';
 
 export default function MainContainer({ charactersPerPage }) {
