@@ -23,7 +23,7 @@ export default function CardDetail() {
     setTimeout(()=> {
       setLoading(false)
     }, 1000)
-  })
+  }, [loading])
 
   return (
     <>
