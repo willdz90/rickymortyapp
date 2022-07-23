@@ -1,0 +1,24 @@
+.loaderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.spinnerLoader{
+    width: 35vw;
+    margin: 10vh auto;
+    background-color: transparent;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    animation-name: spinner-loading;
+}
+
+@keyframes spinner-loading{
+  0% {
+      transform: rotate(0deg)
+  } to {
+      transform: rotate(1turn)
+  }
+}

@@ -1,0 +1,19 @@
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    color: whitesmoke;
+    align-items: center;
+}
+
+.logo{
+    height: 15vh;
+    margin: 1vw 1.8vw;
+}
+
+.logoName{
+    height: 25vh;
+    margin: 0 auto;
+}

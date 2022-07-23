@@ -1,0 +1,55 @@
+.imgCharacter{
+    border-radius: 50%;
+    width: 15vw;
+
+}
+
+.nameCharacter{
+    font-weight: bolder;
+    text-align: center;
+    width: 15vw;
+    margin: 2vh 2vw;
+    text-shadow: 1px 1px white;
+    font-size: 18px;
+}
+
+.imgContainer{
+    margin: 2vh 2vw;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.cardsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .spinner,.spinner:after{
+    display: block;
+    border-radius: 50%;
+    width: 18vw;
+    z-index: 100;
+    margin-left: -18.5vw;
+ } */
+
+.spinner{
+    display: block;
+    border-radius: 50%;
+    width: 18vw;
+    margin-left: -18.5vw;
+    background-color: transparent;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    animation-name: spinner-loading;
+    cursor: pointer;
+}
+
+@keyframes spinner-loading{
+  0% {
+      transform: rotate(0deg)
+  } to {
+      transform: rotate(1turn)
+  }
+}

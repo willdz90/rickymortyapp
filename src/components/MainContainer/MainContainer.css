@@ -1,0 +1,12 @@
+
+.pagination {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 255, 179);
+    color: black;
+    height: 7vh;
+    margin: 0 auto;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+
+.notFound{
+    display: flex;
+    height: 45vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgNF{
+    margin-top: 12vh;
+}

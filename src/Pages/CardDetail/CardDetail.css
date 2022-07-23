@@ -1,0 +1,40 @@
+
+.details{
+    border: 2px solid white;
+    width: fit-content;
+    margin: 2vh 10vh;
+    justify-content: center;
+    background-color: black;
+    border-radius: 25px;
+    padding: 2vw 3vw;
+    color: white;
+}
+
+.detailsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.imgDetails{
+    display: flex;
+    justify-content: center;
+}
+
+.imgDetails > img {
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.infoDetails{
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.arrow{
+    width: 5vw;
+    margin: 10px;
+    cursor: pointer;
+}
