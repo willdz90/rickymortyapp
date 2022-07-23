@@ -5,6 +5,7 @@ import { getCharacters } from '../../redux/actions/index.js';
 import ReactPaginate from 'react-paginate';
 import CharactersPage from '../CharactersPage/CharactersPage.jsx';
 import Loader from '../Loader/Loader';
+import NotFound from '../NotFound/NotFound';
 
 export default function MainContainer({ charactersPerPage }) {
 
@@ -29,12 +30,12 @@ export default function MainContainer({ charactersPerPage }) {
       const newOffset = (e.selected * charactersPerPage) % allCharacters.length;
       setItemOffset(newOffset);
     };
-
+    
     return (
       <>
         {
           allCharacters && allCharacters.length === 0 ?
-          <Loader/> :
+          <NotFound/> :
           <>
             <CharactersPage currentCharacters={currentItems}/>
             <ReactPaginate
